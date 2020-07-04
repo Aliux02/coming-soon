@@ -1,7 +1,7 @@
 .Hero-background{
     background-image: url(../img/background.png);
 }
-     .Hero {
+    .Hero {
         display: inline-block;
         width: 600px;
         margin-left: calc(50% - 300px);
@@ -25,13 +25,22 @@
             .slider{
                 display: inline-block;
                 width: 100%;
-            }    
+            } 
+            .input-uper{
+                display: inline-block;
+                border-top: hidden;
+                border-left: hidden;
+                border-right: hidden;
+                border-bottom-color: #74CCF0;
+                background-color: transparent;
+                width: 100%;
+            }   
             .inputas{
                 display: inline-block;
                 border-top: hidden;
                 border-left: hidden;
                 border-right: hidden;
-                border-bottom-color: #ffffff;
+                border-bottom-color: #D2D2D2;
                 background-color: transparent;
                 width: 50%;
                 float: left;
@@ -41,7 +50,7 @@
                 border-top: hidden;
                 border-left: hidden;
                 border-right: hidden;
-                border-bottom-color: #ffffff;
+                border-bottom-color:#D2D2D2;
                 background-color: transparent;
                 width: 100%;
             }
