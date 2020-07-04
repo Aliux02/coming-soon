@@ -4,9 +4,33 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
-
-
+.container{
+    display: inline-block;
+    width: 900px;
+    margin-left: calc(50% - 450px);
+    text-align: center;
+}
+    .virsus {
+        display: inline-block;
+        margin-top: 50px;
+    }
+    .vidurys{
+        display: inline-block;
+    }
+        .kaire{
+            display: inline-block;
+            width: 40%;
+        }
+        .desine{
+            display: inline-block;
+            width: 40%;
+            float: right;
+        }
+    .apacia{
+        display: inline-block;
+        text-align: center;
+        color: #ffffff;
+    }
 
 
 @media ( max-width: 1200px ) {
