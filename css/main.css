@@ -1,15 +1,17 @@
-.container{
-    display: inline-block;
-    width: 900px;
-    margin-left: calc(50% - 450px);
-    text-align: center;
+.Hero-background{
+    background-image: url(../img/background.png);
 }
-    .virsus {
+     .Hero {
         display: inline-block;
+        width: 600px;
+        margin-left: calc(50% - 300px);
         margin-top: 50px;
+        text-align: center;
     }
     .vidurys{
         display: inline-block;
+        width: 1000px;
+        margin-left: calc(50% - 500px);
     }
         .kaire{
             display: inline-block;
@@ -19,18 +21,39 @@
             display: inline-block;
             width: 40%;
             float: right;
-        }
-            .input{
+        }   
+            .slider{
+                display: inline-block;
+                width: 100%;
+            }    
+            .inputas{
+                display: inline-block;
                 border-top: hidden;
                 border-left: hidden;
                 border-right: hidden;
                 border-bottom-color: #ffffff;
                 background-color: transparent;
+                width: 50%;
+                float: left;
             }
-    .apacia{
+            .input{
+                display: inline-block;
+                border-top: hidden;
+                border-left: hidden;
+                border-right: hidden;
+                border-bottom-color: #ffffff;
+                background-color: transparent;
+                width: 100%;
+            }
+.bottom-background{
+    background-color: #03A9F4;
+}            
+        .apacia{
         display: inline-block;
+        width: 1000px;
+        margin-left: calc(50% - 500px);
         text-align: center;
-    }
+        }
 
 
 @media ( max-width: 1200px ) {
