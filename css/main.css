@@ -3,8 +3,8 @@
 }
     .Hero {
         display: inline-block;
-        width: 600px;
-        margin-left: calc(50% - 300px);
+        width: 500px;
+        margin-left: calc(50% - 250px);
         text-align: center;
     }
         .logo{
@@ -13,6 +13,15 @@
         .main-title{
             display: inline-block;
             margin-bottom: 10px;
+        }
+        .input-Hero {
+            margin: 20px 0px 20px;
+        }
+        .btn1 {
+            margin: 20px 0px 20px;
+        }
+        .pele {
+            margin-bottom: 20px;
         }
     .vidurys{
         display: inline-block;
@@ -40,8 +49,17 @@
             width: 40%;
             float: right;
         }   
+            .forma2{
+                margin-top: 50px;
+            }
+            .btn2{
+                display: inline-block;
+                float: right;
+                margin-top: 30px;
+            }
 .bottom-background{
     background-color: #03A9F4;
+    margin-top: 80px;
 }            
         .apacia{
         display: inline-block;
