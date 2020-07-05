@@ -25,8 +25,8 @@
         }
     .vidurys{
         display: inline-block;
-        width: 1000px;
-        margin-left: calc(50% - 500px);
+        width: 900px;
+        margin-left: calc(50% - 450px);
     }
         .kaire{
             display: inline-block;
@@ -69,8 +69,8 @@
 }            
         .apacia{
         display: inline-block;
-        width: 1000px;
-        margin-left: calc(50% - 500px);
+        width: 900px;
+        margin-left: calc(50% - 450px);
         text-align: center;
         }
            .apacia > .icon-list {
@@ -80,9 +80,27 @@
                    padding: 10px;
                    font-size: 10px;
                    color: white;
-               } 
+               }
+            .logo2 {
+                display: inline-block;
+                width: 100%;
+                padding: 20px;
+                border-top: ridge #1FB2F5;
+                border-left-color: transparent; 
+                border-right: transparent;
+                border-bottom: transparent;
+            }  
+            .copyright {
+                font-size: 13px;
+                font-weight: 500;
+                display: inline-block;
+                width: 75%;
+                line-height: 30px;
+                margin-bottom: 50px;
+                color: white;
+            }  
 
-@media ( max-width: 1200px ) {
+@media ( max-width: 900px ) {
     .container {
         width: 800px;
         margin: 100px calc(50% - 400px) 0;

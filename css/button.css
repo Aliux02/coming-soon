@@ -1,6 +1,6 @@
 .btn1 {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px;
     background-color:#EA1E63;
     color: #fff;
     font-size: 10px;
@@ -16,7 +16,7 @@
     }
 .btn2 {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px;
     background-color:#EA1E63;
     color: #fff;
     font-size: 10px;
