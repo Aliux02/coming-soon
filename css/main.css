@@ -8,6 +8,13 @@
         margin-top: 50px;
         text-align: center;
     }
+        .logo{
+            margin: 30px 0px 15px;
+        }
+        .main-title{
+            display: inline-block;
+            margin-bottom: 10px;
+    }
     .vidurys {
         display: inline-block;
         width: 1000px;
