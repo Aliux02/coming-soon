@@ -43,6 +43,9 @@
             .slider{
                 display: inline-block;
                 width: 100%;
+            }
+            .form-row {
+                margin-top: 20px;
             } 
         .desine{
             display: inline-block;
@@ -50,7 +53,10 @@
             float: right;
         }   
             .forma2{
-                margin-top: 50px;
+                margin-top: 90px;
+            }
+            .input-mid-half {
+                margin-bottom: 20px;
             }
             .btn2{
                 display: inline-block;
