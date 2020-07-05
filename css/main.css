@@ -129,7 +129,32 @@
         margin: 0px calc(50% - 350px) 0
     }
 }
-
+@media (max-width: 710px) {
+    .Hero {
+        width: 100%;
+        margin: 0;
+        }
+    .vidurys {
+        width: 100%;
+        margin: 0;
+    }
+    .kaire {
+        width: 96%;
+        margin: 0 2%;
+    }
+    .desine {
+        width: 96%;
+        margin: 0 2%;
+    }   
+    .apacia {
+        width: 100%;
+        margin: 0;
+    }
+    .bottom-background {
+        width: 100%;
+        margin: 0;
+    }
+}
 
 
 
