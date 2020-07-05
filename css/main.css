@@ -73,7 +73,14 @@
         margin-left: calc(50% - 500px);
         text-align: center;
         }
-
+           .apacia > .icon-list {
+                margin-top: 15px;
+               }
+               .apacia > .icon-list > .fa {
+                   padding: 10px;
+                   font-size: 10px;
+                   color: white;
+               } 
 
 @media ( max-width: 1200px ) {
     .container {
