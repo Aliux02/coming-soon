@@ -1,4 +1,4 @@
-.Hero-background{
+.Hero-background {
     background-image: url(../img/background.png);
 }
     .Hero {
@@ -8,16 +8,16 @@
         margin-top: 50px;
         text-align: center;
     }
-    .vidurys{
+    .vidurys {
         display: inline-block;
         width: 1000px;
         margin-left: calc(50% - 500px);
     }
-        .kaire{
+        .kaire {
             display: inline-block;
             width: 40%;
         }
-        .desine{
+        .desine {
             display: inline-block;
             width: 40%;
             float: right;
@@ -26,43 +26,18 @@
                 display: inline-block;
                 width: 100%;
             } 
-            .input-uper{
-                display: inline-block;
-                border-top: hidden;
-                border-left: hidden;
-                border-right: hidden;
-                border-bottom-color: #74CCF0;
-                background-color: transparent;
-                width: 100%;
-            }   
-            .inputas{
-                display: inline-block;
-                border-top: hidden;
-                border-left: hidden;
-                border-right: hidden;
-                border-bottom-color: #D2D2D2;
-                background-color: transparent;
-                width: 50%;
-                float: left;
+            .btn2 {
+                float: right;
             }
-            .input{
-                display: inline-block;
-                border-top: hidden;
-                border-left: hidden;
-                border-right: hidden;
-                border-bottom-color:#D2D2D2;
-                background-color: transparent;
-                width: 100%;
-            }
-.bottom-background{
+.bottom-background {
     background-color: #03A9F4;
 }            
-        .apacia{
-        display: inline-block;
-        width: 1000px;
-        margin-left: calc(50% - 500px);
-        text-align: center;
-        }
+    .apacia{
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    text-align: center;
+    }
 
 
 @media ( max-width: 1200px ) {

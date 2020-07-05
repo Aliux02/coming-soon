@@ -1,0 +1,27 @@
+.input-Hero {
+    display: inline-block;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color: #74CCF0;
+    background-color: transparent;
+    width: 100%;
+}   
+.input-mid-half {
+    display: inline-block;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color: #D2D2D2;
+    background-color: transparent;
+    width: 50%;
+    float: left;
+}
+.input {
+    display: inline-block;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color:#D2D2D2;
+    background-color: transparent;
+    width: 100%;
