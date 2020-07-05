@@ -17,15 +17,23 @@
             display: inline-block;
             width: 40%;
         }
+            .title{
+                display: inline-block;
+                margin: 50px 0px 20px;
+            }
+            .paragraph{
+                display: inline-block;
+                margin-bottom: 25px;
+            }
+            .slider{
+                display: inline-block;
+                width: 100%;
+            } 
         .desine {
             display: inline-block;
             width: 40%;
             float: right;
         }   
-            .slider{
-                display: inline-block;
-                width: 100%;
-            } 
             .btn2 {
                 float: right;
             }
