@@ -6,7 +6,12 @@
     border-bottom-color: #74CCF0;
     background-color: transparent;
     width: 80%;
+    outline-style: none;
 }   
+    .input-Hero::placeholder {
+        color: #CFEBF7;
+    }
+
 .input-mid-half {
     display: inline-block;
     border-top: hidden;
@@ -15,8 +20,12 @@
     border-bottom-color: #D2D2D2;
     background-color: transparent;
     width: 50%;
+    outline-style: none;
     float: left;
 }
+    .input-mid-half::placeholder {
+        color: #D2D2D2;
+    }
 .input {
     display: inline-block;
     border-top: hidden;
@@ -25,3 +34,5 @@
     border-bottom-color:#D2D2D2;
     background-color: transparent;
     width: 100%;
+    outline-style: none;
+}    
