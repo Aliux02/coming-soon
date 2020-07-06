@@ -61,6 +61,9 @@
             .input-mid-half {
                 margin-bottom: 20px;
             }
+            .message {
+                color:  #D2D2D2;
+            }
             .btn2{
                 display: inline-block;
                 float: right;
