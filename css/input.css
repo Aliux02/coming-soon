@@ -12,18 +12,19 @@
         color: #CFEBF7;
     }
 
-.input-Name {
+.input-name {
     display: inline-block;
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
     border-bottom-color: #D2D2D2;
     background-color: transparent;
+    line-height: 30px;
     width: 47%;
     outline-style: none;
     float: left;
 }
-    .input-Name::placeholder {
+    .input-name::placeholder {
         color: #D2D2D2;
     }
     .input-email {
@@ -33,6 +34,7 @@
         border-right: hidden;
         border-bottom-color: #D2D2D2;
         background-color: transparent;
+        line-height: 30px;
         width: 47%;
         outline-style: none;
         float: right;

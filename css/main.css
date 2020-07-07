@@ -54,11 +54,14 @@
             .forma2{
                 margin-top: 90px;
             }
-            .input-mid-half {
+            .input-name {
+                margin-bottom: 20px;
+            }
+            .input-email {
                 margin-bottom: 20px;
             }
             .message {
-                color:  #D2D2D2;
+               color:  #D2D2D2;
             }
             .btn2{
                 display: inline-block;
