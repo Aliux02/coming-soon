@@ -12,20 +12,34 @@
         color: #CFEBF7;
     }
 
-.input-mid-half {
+.input-Name {
     display: inline-block;
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
     border-bottom-color: #D2D2D2;
     background-color: transparent;
-    width: 50%;
+    width: 47%;
     outline-style: none;
     float: left;
 }
-    .input-mid-half::placeholder {
+    .input-Name::placeholder {
         color: #D2D2D2;
     }
+    .input-email {
+        display: inline-block;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        border-bottom-color: #D2D2D2;
+        background-color: transparent;
+        width: 47%;
+        outline-style: none;
+        float: right;
+    }
+        .input-email::placeholder {
+            color: #D2D2D2;
+        }
 .input {
     display: inline-block;
     border-top: hidden;
