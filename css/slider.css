@@ -1,0 +1,23 @@
+.progres-bar {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+  .pavadinimas {
+    float: left;
+  }
+  .reiksme {
+    display: inline-block;
+    float: right;
+  }
+  .bar {
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+  }
+    .bar > .baro-reiksme {
+      width: 91%;
+      height: 100%;
+      background-color: #ff0000;
+    }
