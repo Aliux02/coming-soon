@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
+    grid-template-areas:
+        "Hero-background Hero-background Hero-background Hero-background Hero-background"
+        ". vidurys vidurys vidurys ."
+        "bottom-background bottom-background bottom-background bottom-background bottom-background";
+}
+.Hero-background {
+    grid-area: Hero-background ;
+}
+.vidurys {
+    grid-area: vidurys;
+}
+.bottom-background{
+    grid-area: bottom-background;
+}
