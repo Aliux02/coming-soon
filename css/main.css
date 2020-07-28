@@ -8,7 +8,7 @@
     .Hero {
         display: inline-block;
         width: 600px;
-        margin-left: calc(50% - 250px);
+        margin-left: calc(50% - 300px);
         text-align: center;
         margin-top: 60px;
     }
@@ -27,7 +27,7 @@
         }
         .btn-subscribe-now {
             width: 100px;
-            margin: 15px 250px 10px;
+            /*margin: 15px 250px 10px*/;
         }
         .pele {
             margin-bottom: 20px;
@@ -113,8 +113,8 @@
 
 @media ( max-width: 960px ) {
     .Hero {
-        width: 700px;
-        margin: 0px calc(50% - 350px) 0;
+        width: 500px;
+        margin: 0px calc(50% - 250px) 0;
     }
     .vidurys {
         width: 100%;
@@ -140,6 +140,9 @@
         width: 100%;
         margin: 0;
         }
+    .input-Hero{
+        width: 100%;
+    }
     .vidurys {
         width: 100%;
         margin: 0;

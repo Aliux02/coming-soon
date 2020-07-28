@@ -1,17 +1,21 @@
 body {
     display: grid;
-    grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
     grid-template-areas:
-        "Hero-background Hero-background Hero-background Hero-background Hero-background"
-        ". vidurys vidurys vidurys ."
-        "bottom-background bottom-background bottom-background bottom-background bottom-background";
+        "HB HB HB HB HB"
+        ". . hero . ."
+        ". vid vid vid ."
+        "bott bott bott bott bott";
 }
 .Hero-background {
-    grid-area: Hero-background ;
+    grid-area: HB ;    
+}
+.Hero {
+    grid-area: hero;
 }
 .vidurys {
-    grid-area: vidurys;
+    grid-area: vid;
 }
 .bottom-background{
-    grid-area: bottom-background;
+    grid-area: bott;
 }
