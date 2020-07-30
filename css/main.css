@@ -1,14 +1,14 @@
-.Hero-background{
+.hero-background{
     background-image: url(../img/background.png);
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
     min-height: 100vh;
 }
-    .Hero {
+    .hero {
         display: inline-block;
-        width: 600px;
-        margin-left: calc(50% - 300px);
+        width: 100%;
+        /*margin-left: calc(50% - 300px);*/
         text-align: center;
         margin-top: 60px;
     }
@@ -112,7 +112,7 @@
             }  
 
 @media ( max-width: 960px ) {
-    .Hero {
+    .hero {
         width: 500px;
         margin: 0px calc(50% - 250px) 0;
     }
@@ -136,7 +136,7 @@
         width: 100%
 }
 @media (max-width: 720px) {
-    .Hero {
+    .hero {
         width: 100%;
         margin: 0;
         }
@@ -168,7 +168,7 @@
     }
 }
 @media (max-width: 420px) {
-    .Hero {
+    .hero {
         width: 100%;
         margin: 0;
         }

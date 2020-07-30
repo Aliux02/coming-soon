@@ -3,14 +3,17 @@ body {
     grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
     grid-template-areas:
         "HB HB HB HB HB"
-        ". . hero . ."
         ". vid vid vid ."
         "bott bott bott bott bott";
 }
-.Hero-background {
-    grid-area: HB ;    
+.hero-background {
+    grid-area: HB ;  
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr; 
+    grid-template-areas: 
+        ". hero ."; 
 }
-.Hero {
+.hero {
     grid-area: hero;
 }
 .vidurys {
