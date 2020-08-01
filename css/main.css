@@ -34,8 +34,8 @@
         }
     .vidurys{
         display: inline-block;
-        width: 900px;
-        margin-left: calc(50% - 450px);
+       /* width: 900px;
+        margin-left: calc(50% - 450px);*/
     }
         .kaire{
             display: inline-block;
@@ -80,8 +80,8 @@
 }            
         .apacia{
         display: inline-block;
-        width: 900px;
-        margin-left: calc(50% - 450px);
+        /*width: 900px;
+        margin-left: calc(50% - 450px);*/
         text-align: center;
         }
            .apacia > .icon-list {
@@ -110,92 +110,6 @@
                 margin-bottom: 50px;
                 color: white;
             }  
-
-@media ( max-width: 960px ) {
-    .hero {
-        width: 500px;
-        margin: 0px calc(50% - 250px) 0;
-    }
-    .vidurys {
-        width: 100%;
-        margin: 0px;
-    }
-    .kaire {
-        width: 80%;
-        margin: 0 10%;
-    }
-    .desine {
-        width: 80%;
-        margin: 0 10%;
-    }   
-    .apacia {
-        width: 700px;
-        margin: 50px calc(50% - 350px) 0;
-    }
-    .bottom-background {
-        width: 100%
-}
-@media (max-width: 720px) {
-    .hero {
-        width: 100%;
-        margin: 0;
-        }
-    .input-Hero{
-        width: 100%;
-    }
-    .vidurys {
-        width: 100%;
-        margin: 0;
-    }
-    .kaire {
-        width: 96%;
-        margin: 0 2%;
-    }
-    .desine {
-        width: 96%;
-        margin: 0 2%;
-    }
-        .btn2 {
-            margin-bottom: 20px;
-        }   
-    .apacia {
-        width: 100%;
-        margin: 0;
-    }
-    .bottom-background {
-        width: 100%;
-        margin: 0;
-    }
-}
-@media (max-width: 420px) {
-    .hero {
-        width: 100%;
-        margin: 0;
-        }
-    .vidurys {
-        width: 100%;
-        margin: 0;
-    }
-    .kaire {
-        width: 96%;
-        margin: 0 2%;
-    }
-    .desine {
-        width: 96%;
-        margin: 0 2%;
-    }
-        .btn2 {
-            margin-bottom: 20px;
-        }   
-    .apacia {
-        width: 100%;
-        margin: 0;
-    }
-    .bottom-background {
-        width: 100%;
-        margin: 0;
-    }
-}
 
 
 

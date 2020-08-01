@@ -9,7 +9,7 @@ body {
 .hero-background {
     grid-area: HB ;  
     display: grid;
-    grid-template-columns: 3fr 4fr 3fr; 
+    grid-template-columns: 3fr 600px 3fr; 
     grid-template-areas: 
         ". hero ."; 
 }
@@ -21,4 +21,30 @@ body {
 }
 .bottom-background{
     grid-area: bott;
+}
+@media (max-width: 720px) {
+    body {
+        display: grid;
+        grid-template-columns: 20px 1fr 20px;
+        grid-template-areas:
+            "HB HB  HB"
+            ".  vid  ."
+            "bott bott bott";
+    }
+    .hero-background {
+        grid-area: HB ;  
+        display: grid;
+        grid-template-columns: 20px 1fr 20px; 
+        grid-template-areas: 
+            ". hero ."; 
+        }
+        .hero {
+            grid-area: hero;
+        }
+        .kaire {
+            width: 100%;
+        }
+        .desine{
+            width: 100%;
+        }
 }
